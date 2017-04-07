@@ -7,6 +7,7 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+ /**這是錯誤訊息頁面**/
 defined('_JEXEC') or die;
 
 $app             = JFactory::getApplication();
@@ -31,7 +32,7 @@ $layout   = $app->input->getCmd('layout', '');
 $task     = $app->input->getCmd('task', '');
 $itemid   = $app->input->getCmd('Itemid', '');
 $sitename = $app->get('sitename');
-
+/**取參數**/
 if($task == "edit" || $layout == "form" )
 {
 	$fullWidth = 1;
